@@ -5,9 +5,113 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:lightgrey;   
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+p{
+    margin-top:1em;
+    margin-bottom:1em;
+}
+.text {
+    padding: 10px;
+    margin-right: 12px;
+}
+.clickme {
+    padding: 7px;
+    border-radius: 2px;
+    border: none;
+    background-image: linear-gradient(#0000ff75,#53bbe6);
+    height: 46%;
+}
+.todo-list {
+    background-color: rgb(11 11 73);
+    margin-top: 5em;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #efefef;
+    box-shadow:
+    /* The top layer shadow */
+    0 1px 1px rgba(0,0,0,0.15),
+    /* The second layer */
+    0 10px 0 -5px #eee,
+    /* The second layer shadow */
+    0 10px 1px -4px rgba(0,0,0,0.15),
+    /* The third layer */
+    0 20px 0 -10px #eee,
+    /* The third layer shadow */
+    0 20px 1px -9px rgba(0,0,0,0.15);
+    padding: 30px;
+    box-shadow: grey 10px 20px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.todo-item {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0;
+    border-bottom: 1px solid #cecece;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #333333;
+    align-items: center;
+    width:80%
+}
+
+.content-box {
+    background-color: white;
+    border-left: 5px solid #ddd;
+    border-bottom: 10px solid white;
+    border-top: 10px solid white;
+    display: flex;
+    padding-left: 2rem;
+    width:80%
+}.cb {
+    background-color: green;
+    display: flex;
+
+    
+}
+
+.delete {
+    float: right;
+    background: #9361bf;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    margin-top: 0.5em;
+    margin-left: 4.5em;
+    
+    height:10%
+    /* margin-left:1rem;
+    margin-right: 17em;*/
+}
+.add {
+    margin-bottom: 3em;
+    color:white;
+}
+
+input[type=checkbox] {
+    margin-right: 10px;
+    font-size: 30px;
+   
+}
+
+    input[type=checkbox]:focus {
+        outline: 0;
+    }
+
